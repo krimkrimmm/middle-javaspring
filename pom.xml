@@ -13,7 +13,7 @@
 	</parent>
 
 	<groupId>vn.scrip</groupId>
-	<artifactId>middle-giuakhoa</artifactId>
+	<artifactId>middle</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>middle-giuakhoa</name>
 	<description>Demo project for Spring Boot</description>

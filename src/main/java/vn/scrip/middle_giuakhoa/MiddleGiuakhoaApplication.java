@@ -33,11 +33,10 @@
 //4. Nộp bài
 //Học viên push code lên trên github và nộp lại bài sau khi kết thúc bài kiểm tra
 //Viết file REAME.md chụp lại ảnh màn hình giao diện web và bổ sung thêm tin về flow, các chức năng khác của trang web (nếu có)
-//Các bài phát hiện có yếu tố trùng nhau (copy bài của nhau) -> 0 điểm
 //5. Chấm điểm
-//Hoàn thiện các yêu cầu ở trên: 6 điểm
-//Bổ sung các tính năng nâng cao (tìm kiếm, sắp xếp, lọc dữ liệu, phân trang, …): 2 điểm
-//Giao diện đẹp, thân thiện với người dùng: 2 điểm
+//Hoàn thiện các yêu cầu ở trên
+//Bổ sung các tính năng nâng cao (tìm kiếm, sắp xếp, lọc dữ liệu, phân trang, …)
+//Giao diện đẹp, thân thiện với người dùng
 package vn.scrip.middle_giuakhoa;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -49,11 +48,3 @@ public class MiddleGiuakhoaApplication
 		SpringApplication.run(MiddleGiuakhoaApplication.class, args);
 	}
 }
-
-
-
-
-
-
-
-

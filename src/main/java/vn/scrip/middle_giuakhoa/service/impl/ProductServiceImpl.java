@@ -6,10 +6,23 @@ import vn.scrip.middle_giuakhoa.model.Product;
 import vn.scrip.middle_giuakhoa.service.ProductService;
 
 import java.util.List;
+import java.util.Optional;
 import java.util.stream.Collectors;
 
 @Service
 public class ProductServiceImpl implements ProductService {
+
+    @Override
+    public List<Product> getAll() {
+        return ProductDB.getProducts();
+    }
+
+    @Override
+    public List<Product> search(String keyword) {
+        return ProductDB.getProducts().stream()
+                .filter(p -> p.getName().toLowerCase().contains(keyword.toLowerCase()))
+                .collect(Collectors.toList());
+    }
 
     @Override
     public List<Product> getFilteredProducts(String keyword, double minPrice, double maxPrice) {
@@ -25,5 +38,12 @@ public class ProductServiceImpl implements ProductService {
                 .filter(p -> p.getId() == id)
                 .findFirst()
                 .orElse(null);
+    }
+
+    @Override
+    public Optional<Product> getById(int id) {
+        return ProductDB.getProducts().stream()
+                .filter(p -> p.getId() == id)
+                .findFirst();
     }
 }
