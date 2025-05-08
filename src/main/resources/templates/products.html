@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Danh sách sản phẩm</title>
+    <link rel="stylesheet" th:href="@{/css/style1.css}">
+
+    <link rel="stylesheet" th:href="@{/css/style2.css}"> <!-- Thêm style2.css -->
+    <style>
+        /* Reset CSS */
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+
+ /* Body Styling */
+ body {
+     font-family: Arial, sans-serif;
+     line-height: 1.6;
+     background-color: #f8f8f8;
+     color: #333;
+     padding: 20px;
+ }
+
+ /* Heading Styling */
+ h1 {
+     text-align: center;
+     font-size: 2.5em;
+     color: #333;
+     margin-bottom: 30px;
+ }
+
+ h2 {
+     font-size: 2em;
+     color: #2c3e50;
+     margin-bottom: 10px;
+ }
+
+ /* Form Styling */
+ form {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     gap: 10px;
+     margin-bottom: 20px;
+ }
+
+ form input[type="text"],
+ form input[type="number"] {
+     padding: 8px;
+     border: 1px solid #ddd;
+     border-radius: 4px;
+ }
+
+ form button {
+     padding: 8px 16px;
+     background-color: #007bff;
+     color: white;
+     border: none;
+     border-radius: 4px;
+     cursor: pointer;
+ }
+
+ form button:hover {
+     background-color: #0056b3;
+ }
+
+ /* Product Grid */
+ .product-grid {
+     display: grid;
+     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+     gap: 20px;
+ }
+
+ /* Product Item */
+ .product-item {
+     background-color: white;
+     padding: 20px;
+     border-radius: 8px;
+     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+     text-align: center;
+ }
+
+ .product-item img {
+     max-width: 100%;
+     height: auto;
+     margin-bottom: 10px;
+     display: block;
+     margin: 0 auto;
+ }
+
+ .product-item h3 {
+     font-size: 1.2em;
+     margin-bottom: 5px;
+ }
+
+ .product-item p {
+     font-size: 0.9em;
+     color: #666;
+     margin-bottom: 5px;
+ }
+
+ /* Price and Rating */
+ .product-item .price {
+     font-weight: bold;
+     color: #007bff;
+ }
+
+ p span {
+     font-size: 1.4em;
+     color: #2ecc71;
+ }
+
+ /* Product Detail Block */
+ div.product-detail {
+     background-color: #fff;
+     padding: 20px;
+     border-radius: 8px;
+     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+     margin-bottom: 30px;
+ }
+
+ /* No Product Found Message */
+ div.th\:unless {
+     text-align: center;
+     font-size: 1.5em;
+     color: #e74c3c;
+     margin-top: 30px;
+ }
+
+ /* Pagination */
+ .pagination {
+     text-align: center;
+     margin-top: 20px;
+ }
+
+ .pagination a {
+     display: inline-block;
+     padding: 8px 16px;
+     text-decoration: none;
+     border: 1px solid #ddd;
+     margin: 0 4px;
+     color: #333;
+ }
+
+ .pagination a.active {
+     background-color: #007bff;
+     color: white;
+     border: 1px solid #007bff;
+ }
+
+ .pagination a:hover:not(.active) {
+     background-color: #f0f0f0;
+ }
+
+ /* Back Button */
+ a.back-button {
+     display: inline-block;
+     padding: 10px 20px;
+     background-color: #007bff;
+     color: white;
+     text-decoration: none;
+     border-radius: 5px;
+     margin-top: 20px;
+ }
+
+ a.back-button:hover {
+     background-color: #0056b3;
+ }
+
+    </style>
+</head>
+<body>
+<h1>Danh sách sản phẩm</h1>
+
+<form th:action="@{/search}" method="get">
+    <input type="text" name="keyword" placeholder="Nhập từ khóa tìm kiếm...">
+    <button type="submit">Tìm kiếm</button>
+</form>
+
+<div th:each="product : ${products}">
+    <img th:src="@{${product.thumbnail}}" alt="Ảnh">
+    <h3 th:text="${product.name}"></h3>
+    <p th:text="${product.description}"></p>
+    <p th:text="|${product.price} VND|"></p>
+    <a th:href="@{/products/{id}(id=${product.id})}">Xem chi tiết</a>
+</div>
+</body>
+</html>
+
+
+
