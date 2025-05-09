@@ -4,38 +4,98 @@
     <meta charset="UTF-8">
     <title>Danh sách sản phẩm</title>
     <link rel="stylesheet" href="/css/style.css">
+    <style>
+        .product-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .product-card {
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            background: #fff;
+            padding: 10px;
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+
+        .product-card:hover {
+            transform: scale(1.03);
+        }
+
+        .product-card img {
+            max-width: 100%;
+            height: 180px;
+            object-fit: cover;
+            border-radius: 4px;
+        }
+
+        .product-name {
+            font-size: 16px;
+            font-weight: bold;
+            margin: 10px 0 5px;
+        }
+
+        .price-original {
+            text-decoration: line-through;
+            color: #999;
+            font-size: 14px;
+        }
+
+        .price-discount {
+            color: red;
+            font-weight: bold;
+            font-size: 16px;
+        }
+
+        .discount-percent {
+            color: orange;
+            font-size: 13px;
+        }
+
+        .rating {
+            color: #f39c12;
+            font-size: 14px;
+        }
+    </style>
 </head>
 <body>
-<header>
-    <h1>Danh sách sản phẩm</h1>
-</header>
-
-<main>
-    <div class="product-grid">
-        <div class="product-card" th:each="product : ${products}">
-            <a th:href="@{'/products/' + ${product.id}}">
-                <img th:src="${product.thumbnail}" alt="Ảnh sản phẩm">
-                <h2 th:text="${product.name}"></h2>
-                <p class="price">
-                    <span th:if="${product.priceDiscount != null}" class="discounted-price"
-                          th:text="${#numbers.formatDecimal(product.priceDiscount, 0, 'COMMA', '.', '') + ' VND'}"></span>
-                    <span th:if="${product.priceDiscount != null}" class="original-price"
-                          th:text="${#numbers.formatDecimal(product.price, 0, 'COMMA', '.', '') + ' VND'}"></span>
-                    <span th:if="${product.priceDiscount == null}" th:text="${#numbers.formatDecimal(product.price, 0, 'COMMA', '.', '') + ' VND'}"></span>
-                </p>
-                <p class="rating">Đánh giá: <span th:text="${product.rating}"></span> ★</p>
-            </a>
+<h2 style="text-align: center; margin-top: 20px;">Danh sách đồng hồ</h2>
+<div class="product-grid">
+    <div class="product-card" th:each="product : ${products}">
+        <a th:href="@{'/products/' + ${product.id}}">
+            <img th:src="${product.thumbnail}" alt="Ảnh sản phẩm">
+        </a>
+        <div class="product-name" th:text="${product.name}"></div>
+        <div th:if="${product.priceDiscount != null}">
+            <span class="price-discount" th:text="${#numbers.formatInteger(product.priceDiscount, 0, 'POINT')} + '₫'"></span><br>
+            <span class="price-original" th:text="${#numbers.formatInteger(product.price, 0, 'POINT')} + '₫'"></span>
+            <span class="discount-percent"
+                  th:text="'- ' + ${T(java.lang.Math).round((1 - product.priceDiscount * 1.0 / product.price) * 100)} + '%'">
+            </span>
         </div>
-    </div>
+        <div th:if="${product.priceDiscount == null}">
+            <span class="price-discount" th:text="${#numbers.formatInteger(product.price, 0, 'POINT')} + '₫'"></span>
+        </div>
+        <form method="get" style="text-align: center; margin: 20px 0;">
+            <input type="text" name="keyword" placeholder="Tìm sản phẩm..." th:value="${keyword}" />
+            <input type="number" name="min" placeholder="Giá từ" th:value="${min}" />
+            <input type="number" name="max" placeholder="Giá đến" th:value="${max}" />
+            <select name="sort">
+                <option value="price_asc" th:selected="${sort == 'price_asc'}">Giá tăng</option>
+                <option value="price_desc" th:selected="${sort == 'price_desc'}">Giá giảm</option>
+            </select>
+            <button type="submit">Lọc</button>
+        </form>
 
-    <!-- Phân trang -->
-    <div class="pagination">
-        <a href="#" class="active">1</a>
-        <a href="#">2</a>
-        <a href="#">3</a>
-        <a href="#">...</a>
-        <a href="#">10</a>
+        <div style="text-align: center; margin-top: 20px;">
+    <span th:each="i : ${#numbers.sequence(1, totalPages)}">
+        <a th:href="@{'/?keyword=' + ${keyword} + '&min=' + ${min} + '&max=' + ${max} + '&sort=' + ${sort} + '&page=' + ${
+        <div class="rating" th:text="'⭐ ' + ${product.rating} + ' / 5.0'"></div>
     </div>
-</main>
+</div>
 </body>
 </html>
+
