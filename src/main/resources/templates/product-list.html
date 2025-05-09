@@ -1,29 +1,5 @@
-<!DOCTYPE html>
-<html xmlns:th="http://www.thymeleaf.org">
-<head><title>Danh sách sản phẩm</title></head>
-<body>
-<h2>Danh sách sản phẩm</h2>
-<form method="get">
-
-    <input type="text" name="keyword" th:value="${keyword}" placeholder="Tìm kiếm..."/>
-    <button type="submit">Tìm</button>
-</form>
-<div th:each="product : ${products}">
-    <h3 th:text="${product.name}"></h3>
-    <img th:src="${product.thumbnail}" alt="thumbnail" width="150"/>
-    <p th:text="${product.description}"></p>
-    <p>Giá: <span th:text="${product.price} + ' VNĐ'"></span></p>
-    <a th:href="@{'/products/' + ${product.id}}">Xem chi tiết</a>
-
+<!-- templates/product-list.html -->
+<div th:each="product : ${products}" class="product" xmlns:th="http://www.w3.org/1999/xhtml">
+    <img th:src="${product.thumbnail}" alt="thumbnail">
+    <h2 th:text="${product.name}"></h2>
 </div>
-</body>
-</html>
-
-
-
-
-
-
-
-
-

@@ -1,243 +1,452 @@
 [
   {
     "id": 1,
-    "name": "iPhone",
-    "description": "Flagship smartphone with A17 Bionic chip and ProMotion display.",
-    "thumbnail": "https://example.com/images/iphone.jpg",
-    "price": 1999999.9,
-    "rating": 4.9
+    "name": "Dell XPS 13",
+    "description": "Dell XPS 13 - sản phẩm chất lượng cao với nhiều tính năng hiện đại.",
+    "thumbnail": "https://picsum.photos/seed/1/200/200",
+    "price": 42444352,
+    "priceDiscount": 23944815,
+    "rating": 3.8
   },
   {
     "id": 2,
-    "name": "Samsung Galaxy",
-    "description": "Premium Android phone with Dynamic AMOLED 2X display.",
-    "thumbnail": "https://example.com/images/samsung-galaxy.jpg",
-    "price": 1799999.5,
-    "rating": 4.7
+    "name": "Samsung Galaxy S24",
+    "description": "Samsung Galaxy S24 - sản phẩm chất lượng cao với nhiều tính năng hiện đại.",
+    "thumbnail": "https://picsum.photos/seed/2/200/200",
+    "price": 27006431,
+    "priceDiscount": 17925382,
+    "rating": 3.7
   },
   {
     "id": 3,
-    "name": "Google Pixel",
-    "description": "Pure Android experience with excellent AI-powered camera.",
-    "thumbnail": "https://example.com/images/google-pixel.jpg",
-    "price": 1499999.0,
-    "rating": 4.6
-  },
-  {
-    "id": 4,
-    "name": "OnePlus",
-    "description": "High-performance phone with fast charging and 120Hz display.",
-    "thumbnail": "https://example.com/images/oneplus.jpg",
-    "price": 1299999.9,
-    "rating": 4.5
-  },
-  {
-    "id": 5,
-    "name": "Xiaomi",
-    "description": "Affordable smartphone with powerful specs and long battery life.",
-    "thumbnail": "https://example.com/images/xiaomi.jpg",
-    "price": 999999.9,
+    "name": "Asus ROG Phone",
+    "description": "Asus ROG Phone - sản phẩm chất lượng cao với nhiều tính năng hiện đại.",
+    "thumbnail": "https://picsum.photos/seed/3/200/200",
+    "price": 43603185,
+    "priceDiscount": 38573250,
     "rating": 4.3
   },
   {
-    "id": 6,
-    "name": "Oppo",
-    "description": "Stylish phone with innovative camera features.",
-    "thumbnail": "https://example.com/images/oppo.jpg",
-    "price": 899999.5,
-    "rating": 4.2
+    "id": 4,
+    "name": "iPhone 15",
+    "description": "iPhone 15 - sản phẩm chất lượng cao với nhiều tính năng hiện đại.",
+    "thumbnail": "https://picsum.photos/seed/4/200/200",
+    "price": 34884329,
+    "priceDiscount": 23512505,
+    "rating": 4.7
   },
   {
-    "id": 7,
-    "name": "Vivo",
-    "description": "Selfie-focused smartphone with AI-enhanced photography.",
-    "thumbnail": "https://example.com/images/vivo.jpg",
-    "price": 850000.0,
-    "rating": 4.1
-  },
-  {
-    "id": 8,
-    "name": "Realme",
-    "description": "Gaming smartphone with high refresh rate and big battery.",
-    "thumbnail": "https://example.com/images/realme.jpg",
-    "price": 799999.9,
-    "rating": 4.0
-  },
-  {
-    "id": 9,
-    "name": "Nokia",
-    "description": "Durable phone with stock Android and excellent battery life.",
-    "thumbnail": "https://example.com/images/nokia.jpg",
-    "price": 749999.9,
-    "rating": 3.9
-  },
-  {
-    "id": 10,
-    "name": "Sony Xperia",
-    "description": "Premium phone with top-tier camera and 4K OLED display.",
-    "thumbnail": "https://example.com/images/sony-xperia.jpg",
-    "price": 1999999.5,
+    "id": 5,
+    "name": "Google Pixel 8",
+    "description": "Google Pixel 8 - sản phẩm chất lượng cao với nhiều tính năng hiện đại.",
+    "thumbnail": "https://picsum.photos/seed/5/200/200",
+    "price": 45227711,
+    "priceDiscount": 40810308,
     "rating": 4.8
   },
   {
-      "id": 11,
-      "name": "Apple",
-      "description": "Malignant neoplasm of thyroid gland",
-      "thumbnail": "https://example.com/image31.jpg",
-      "price": 1899999.9,
-      "rating": 4.9
-    },
-    {
-      "id": 12,
-      "name": "Sony",
-      "description": "Benign neoplasm of kidney",
-      "thumbnail": "https://example.com/image32.jpg",
-      "price": 1654321.5,
-      "rating": 4.3
-    },
-    {
-      "id": 13,
-      "name": "HTC",
-      "description": "Closed fracture of base of skull without intracranial injury",
-      "thumbnail": "https://example.com/image33.jpg",
-      "price": 1187654.0,
-      "rating": 3.6
-    },
-    {
-      "id": 14,
-      "name": "OnePlus",
-      "description": "Nontraumatic rupture of tendon of biceps",
-      "thumbnail": "https://example.com/image34.jpg",
-      "price": 1345897.8,
-      "rating": 4.1
-    },
-    {
-      "id": 15,
-      "name": "Huawei",
-      "description": "Other specified disorders of kidney and ureter",
-      "thumbnail": "https://example.com/image35.jpg",
-      "price": 1478956.2,
-      "rating": 3.8
-    },
-    {
-      "id": 16,
-      "name": "Xiaomi",
-      "description": "Unspecified disorder of male genital organs",
-      "thumbnail": "https://example.com/image36.jpg",
-      "price": 1256789.3,
-      "rating": 4.0
-    },
-    {
-      "id": 17,
-      "name": "Vivo",
-      "description": "Other specified infections due to Chlamydiae",
-      "thumbnail": "https://example.com/image37.jpg",
-      "price": 1436785.5,
-      "rating": 3.7
-    },
-    {
-      "id": 18,
-      "name": "Meizu",
-      "description": "Other congenital malformations of the great veins",
-      "thumbnail": "https://example.com/image38.jpg",
-      "price": 1123456.8,
-      "rating": 3.2
-    },
-    {
-      "id": 19,
-      "name": "TCL",
-      "description": "Toxic effect of venom of other arthropods",
-      "thumbnail": "https://example.com/image39.jpg",
-      "price": 1298765.4,
-      "rating": 3.9
-    },
-    {
-      "id": 20,
-      "name": "Google",
-      "description": "Chronic pain syndrome",
-      "thumbnail": "https://example.com/image40.jpg",
-      "price": 1547890.6,
-      "rating": 4.5
-    },
-    {
-      "id": 21,
-      "name": "Sharp",
-      "description": "Other specified diseases of the liver",
-      "thumbnail": "https://example.com/image41.jpg",
-      "price": 1399876.3,
-      "rating": 3.4
-    },
-    {
-      "id": 22,
-      "name": "Panasonic",
-      "description": "Personal history of malignant neoplasm of liver",
-      "thumbnail": "https://example.com/image42.jpg",
-      "price": 1587654.9,
-      "rating": 4.2
-    },
-    {
-      "id": 23,
-      "name": "Hisense",
-      "description": "Poisoning by antidepressants",
-      "thumbnail": "https://example.com/image43.jpg",
-      "price": 1176543.2,
-      "rating": 3.3
-    },
-    {
-      "id": 24,
-      "name": "Coolpad",
-      "description": "Cystic fibrosis with pulmonary manifestations",
-      "thumbnail": "https://example.com/image44.jpg",
-      "price": 1098765.8,
-      "rating": 2.8
-    },
-    {
-      "id": 25,
-      "name": "Micromax",
-      "description": "Parasitic pneumonia",
-      "thumbnail": "https://example.com/image45.jpg",
-      "price": 1234567.7,
-      "rating": 3.5
-    },
-    {
-      "id": 26,
-      "name": "Asus",
-      "description": "Personal history of diseases of the respiratory system",
-      "thumbnail": "https://example.com/image46.jpg",
-      "price": 1567890.2,
-      "rating": 4.0
-    },
-    {
-      "id": 27,
-      "name": "Infinix",
-      "description": "Other chronic osteomyelitis",
-      "thumbnail": "https://example.com/image47.jpg",
-      "price": 1287654.6,
-      "rating": 3.6
-    },
-    {
-      "id": 28,
-      "name": "Tecno",
-      "description": "Poisoning by systemic antibiotics",
-      "thumbnail": "https://example.com/image48.jpg",
-      "price": 1423456.1,
-      "rating": 4.3
-    },
-    {
-      "id": 29,
-      "name": "LeEco",
-      "description": "Other and unspecified effects of external causes",
-      "thumbnail": "https://example.com/image49.jpg",
-      "price": 1354321.5,
-      "rating": 3.7
-    },
-    {
-      "id": 30,
-      "name": "Ulefone",
-      "description": "Certain early complications of trauma",
-      "thumbnail": "https://example.com/image50.jpg",
-      "price": 1198765.4,
-      "rating": 3.9
-    }
-  ]
-
+    "id": 6,
+    "name": "PlayStation 5",
+    "description": "PlayStation 5 - sản phẩm chất lượng cao với nhiều tính năng hiện đại.",
+    "thumbnail": "https://picsum.photos/seed/6/200/200",
+    "price": 4576467,
+    "priceDiscount": 2386690,
+    "rating": 2.6
+  },
+  {
+    "id": 7,
+    "name": "iPad Air",
+    "description": "iPad Air - sản phẩm chất lượng cao với nhiều tính năng hiện đại.",
+    "thumbnail": "https://picsum.photos/seed/7/200/200",
+    "price": 43397260,
+    "priceDiscount": 24336699,
+    "rating": 4.8
+  },
+  {
+    "id": 8,
+    "name": "Canon EOS R8",
+    "description": "Canon EOS R8 - sản phẩm chất lượng cao với nhiều tính năng hiện đại.",
+    "thumbnail": "https://picsum.photos/seed/8/200/200",
+    "price": 10426385,
+    "priceDiscount": 9122743,
+    "rating": 3.6
+  },
+  {
+    "id": 9,
+    "name": "MacBook Pro M3",
+    "description": "MacBook Pro M3 - sản phẩm chất lượng cao với nhiều tính năng hiện đại.",
+    "thumbnail": "https://picsum.photos/seed/9/200/200",
+    "price": 36298970,
+    "priceDiscount": 23205798,
+    "rating": 4.6
+  },
+  {
+    "id": 10,
+    "name": "iPhone 15",
+    "description": "iPhone 15 - sản phẩm chất lượng cao với nhiều tính năng hiện đại.",
+    "thumbnail": "https://picsum.photos/seed/10/200/200",
+    "price": 44613192,
+    "priceDiscount": 41406287,
+    "rating": 4.8
+  },
+  {
+    "id": 11,
+    "name": "Dell XPS 13",
+    "description": "Dell XPS 13 - sản phẩm chất lượng cao với nhiều tính năng hiện đại.",
+    "thumbnail": "https://picsum.photos/seed/11/200/200",
+    "price": 13598228,
+    "priceDiscount": 8275228,
+    "rating": 4.4
+  },
+  {
+    "id": 12,
+    "name": "PlayStation 5",
+    "description": "PlayStation 5 - sản phẩm chất lượng cao với nhiều tính năng hiện đại.",
+    "thumbnail": "https://picsum.photos/seed/12/200/200",
+    "price": 45863549,
+    "priceDiscount": 36312449,
+    "rating": 3.9
+  },
+  {
+    "id": 13,
+    "name": "iPhone 15",
+    "description": "iPhone 15 - sản phẩm chất lượng cao với nhiều tính năng hiện đại.",
+    "thumbnail": "https://picsum.photos/seed/13/200/200",
+    "price": 41618023,
+    "priceDiscount": 32105945,
+    "rating": 3.5
+  },
+  {
+    "id": 14,
+    "name": "Google Pixel 8",
+    "description": "Google Pixel 8 - sản phẩm chất lượng cao với nhiều tính năng hiện đại.",
+    "thumbnail": "https://picsum.photos/seed/14/200/200",
+    "price": 26532091,
+    "priceDiscount": 22116463,
+    "rating": 4.6
+  },
+  {
+    "id": 15,
+    "name": "Canon EOS R8",
+    "description": "Canon EOS R8 - sản phẩm chất lượng cao với nhiều tính năng hiện đại.",
+    "thumbnail": "https://picsum.photos/seed/15/200/200",
+    "price": 15719137,
+    "priceDiscount": 14100346,
+    "rating": 4.1
+  },
+  {
+    "id": 16,
+    "name": "Google Pixel 8",
+    "description": "Google Pixel 8 - sản phẩm chất lượng cao với nhiều tính năng hiện đại.",
+    "thumbnail": "https://picsum.photos/seed/16/200/200",
+    "price": 40321422,
+    "priceDiscount": 35092962,
+    "rating": 4.7
+  },
+  {
+    "id": 17,
+    "name": "Canon EOS R8",
+    "description": "Canon EOS R8 - sản phẩm chất lượng cao với nhiều tính năng hiện đại.",
+    "thumbnail": "https://picsum.photos/seed/17/200/200",
+    "price": 8942239,
+    "priceDiscount": 7526820,
+    "rating": 2.9
+  },
+  {
+    "id": 18,
+    "name": "Nikon Z6 II",
+    "description": "Nikon Z6 II - sản phẩm chất lượng cao với nhiều tính năng hiện đại.",
+    "thumbnail": "https://picsum.photos/seed/18/200/200",
+    "price": 46470027,
+    "priceDiscount": 35846876,
+    "rating": 3.3
+  },
+  {
+    "id": 19,
+    "name": "Dell XPS 13",
+    "description": "Dell XPS 13 - sản phẩm chất lượng cao với nhiều tính năng hiện đại.",
+    "thumbnail": "https://picsum.photos/seed/19/200/200",
+    "price": 9408555,
+    "priceDiscount": 6711833,
+    "rating": 4.0
+  },
+  {
+    "id": 20,
+    "name": "PlayStation 5",
+    "description": "PlayStation 5 - sản phẩm chất lượng cao với nhiều tính năng hiện đại.",
+    "thumbnail": "https://picsum.photos/seed/20/200/200",
+    "price": 49781334,
+    "priceDiscount": 31354436,
+    "rating": 4.3
+  },
+  {
+    "id": 21,
+    "name": "Apple Watch Ultra",
+    "description": "Apple Watch Ultra - sản phẩm chất lượng cao với nhiều tính năng hiện đại.",
+    "thumbnail": "https://picsum.photos/seed/21/200/200",
+    "price": 14139808,
+    "priceDiscount": 13378224,
+    "rating": 2.9
+  },
+  {
+    "id": 22,
+    "name": "Samsung Galaxy S24",
+    "description": "Samsung Galaxy S24 - sản phẩm chất lượng cao với nhiều tính năng hiện đại.",
+    "thumbnail": "https://picsum.photos/seed/22/200/200",
+    "price": 45874371,
+    "priceDiscount": 40338402,
+    "rating": 2.7
+  },
+  {
+    "id": 23,
+    "name": "Apple Watch Ultra",
+    "description": "Apple Watch Ultra - sản phẩm chất lượng cao với nhiều tính năng hiện đại.",
+    "thumbnail": "https://picsum.photos/seed/23/200/200",
+    "price": 34240106,
+    "priceDiscount": 25832264,
+    "rating": 4.4
+  },
+  {
+    "id": 24,
+    "name": "Asus ROG Phone",
+    "description": "Asus ROG Phone - sản phẩm chất lượng cao với nhiều tính năng hiện đại.",
+    "thumbnail": "https://picsum.photos/seed/24/200/200",
+    "price": 27233300,
+    "priceDiscount": 19899418,
+    "rating": 3.6
+  },
+  {
+    "id": 25,
+    "name": "iPad Air",
+    "description": "iPad Air - sản phẩm chất lượng cao với nhiều tính năng hiện đại.",
+    "thumbnail": "https://picsum.photos/seed/25/200/200",
+    "price": 1918781,
+    "priceDiscount": 1307707,
+    "rating": 3.1
+  },
+  {
+    "id": 26,
+    "name": "LG OLED TV",
+    "description": "LG OLED TV - sản phẩm chất lượng cao với nhiều tính năng hiện đại.",
+    "thumbnail": "https://picsum.photos/seed/26/200/200",
+    "price": 30765849,
+    "priceDiscount": 26968505,
+    "rating": 2.6
+  },
+  {
+    "id": 27,
+    "name": "MacBook Pro M3",
+    "description": "MacBook Pro M3 - sản phẩm chất lượng cao với nhiều tính năng hiện đại.",
+    "thumbnail": "https://picsum.photos/seed/27/200/200",
+    "price": 13592002,
+    "priceDiscount": 12279994,
+    "rating": 4.5
+  },
+  {
+    "id": 28,
+    "name": "MacBook Pro M3",
+    "description": "MacBook Pro M3 - sản phẩm chất lượng cao với nhiều tính năng hiện đại.",
+    "thumbnail": "https://picsum.photos/seed/28/200/200",
+    "price": 22346978,
+    "priceDiscount": 16568088,
+    "rating": 2.5
+  },
+  {
+    "id": 29,
+    "name": "Sony WH-1000XM5",
+    "description": "Sony WH-1000XM5 - sản phẩm chất lượng cao với nhiều tính năng hiện đại.",
+    "thumbnail": "https://picsum.photos/seed/29/200/200",
+    "price": 3213072,
+    "priceDiscount": 2606810,
+    "rating": 4.2
+  },
+  {
+    "id": 30,
+    "name": "Google Pixel 8",
+    "description": "Google Pixel 8 - sản phẩm chất lượng cao với nhiều tính năng hiện đại.",
+    "thumbnail": "https://picsum.photos/seed/30/200/200",
+    "price": 24908640,
+    "priceDiscount": 15696686,
+    "rating": 4.5
+  },
+  {
+    "id": 31,
+    "name": "Canon EOS R8",
+    "description": "Canon EOS R8 - sản phẩm chất lượng cao với nhiều tính năng hiện đại.",
+    "thumbnail": "https://picsum.photos/seed/31/200/200",
+    "price": 36415922,
+    "priceDiscount": 31484113,
+    "rating": 3.0
+  },
+  {
+    "id": 32,
+    "name": "Asus ROG Phone",
+    "description": "Asus ROG Phone - sản phẩm chất lượng cao với nhiều tính năng hiện đại.",
+    "thumbnail": "https://picsum.photos/seed/32/200/200",
+    "price": 45005627,
+    "priceDiscount": 26742802,
+    "rating": 2.6
+  },
+  {
+    "id": 33,
+    "name": "Google Pixel 8",
+    "description": "Google Pixel 8 - sản phẩm chất lượng cao với nhiều tính năng hiện đại.",
+    "thumbnail": "https://picsum.photos/seed/33/200/200",
+    "price": 48722793,
+    "priceDiscount": 28094500,
+    "rating": 3.2
+  },
+  {
+    "id": 34,
+    "name": "PlayStation 5",
+    "description": "PlayStation 5 - sản phẩm chất lượng cao với nhiều tính năng hiện đại.",
+    "thumbnail": "https://picsum.photos/seed/34/200/200",
+    "price": 29571860,
+    "priceDiscount": 16778117,
+    "rating": 5.0
+  },
+  {
+    "id": 35,
+    "name": "Canon EOS R8",
+    "description": "Canon EOS R8 - sản phẩm chất lượng cao với nhiều tính năng hiện đại.",
+    "thumbnail": "https://picsum.photos/seed/35/200/200",
+    "price": 39542088,
+    "priceDiscount": 22340958,
+    "rating": 4.9
+  },
+  {
+    "id": 36,
+    "name": "Xiaomi Redmi Note 13",
+    "description": "Xiaomi Redmi Note 13 - sản phẩm chất lượng cao với nhiều tính năng hiện đại.",
+    "thumbnail": "https://picsum.photos/seed/36/200/200",
+    "price": 41667805,
+    "priceDiscount": 33591312,
+    "rating": 3.3
+  },
+  {
+    "id": 37,
+    "name": "iPhone 15",
+    "description": "iPhone 15 - sản phẩm chất lượng cao với nhiều tính năng hiện đại.",
+    "thumbnail": "https://picsum.photos/seed/37/200/200",
+    "price": 7976946,
+    "priceDiscount": 5481514,
+    "rating": 4.6
+  },
+  {
+    "id": 38,
+    "name": "PlayStation 5",
+    "description": "PlayStation 5 - sản phẩm chất lượng cao với nhiều tính năng hiện đại.",
+    "thumbnail": "https://picsum.photos/seed/38/200/200",
+    "price": 9880099,
+    "priceDiscount": 7098535,
+    "rating": 4.0
+  },
+  {
+    "id": 39,
+    "name": "Canon EOS R8",
+    "description": "Canon EOS R8 - sản phẩm chất lượng cao với nhiều tính năng hiện đại.",
+    "thumbnail": "https://picsum.photos/seed/39/200/200",
+    "price": 4009796,
+    "priceDiscount": 3658736,
+    "rating": 2.8
+  },
+  {
+    "id": 40,
+    "name": "Samsung Galaxy S24",
+    "description": "Samsung Galaxy S24 - sản phẩm chất lượng cao với nhiều tính năng hiện đại.",
+    "thumbnail": "https://picsum.photos/seed/40/200/200",
+    "price": 1224243,
+    "priceDiscount": 951030,
+    "rating": 2.7
+  },
+  {
+    "id": 41,
+    "name": "Asus ROG Phone",
+    "description": "Asus ROG Phone - sản phẩm chất lượng cao với nhiều tính năng hiện đại.",
+    "thumbnail": "https://picsum.photos/seed/41/200/200",
+    "price": 37360958,
+    "priceDiscount": 24561102,
+    "rating": 2.6
+  },
+  {
+    "id": 42,
+    "name": "LG OLED TV",
+    "description": "LG OLED TV - sản phẩm chất lượng cao với nhiều tính năng hiện đại.",
+    "thumbnail": "https://picsum.photos/seed/42/200/200",
+    "price": 6910677,
+    "priceDiscount": 6309821,
+    "rating": 2.5
+  },
+  {
+    "id": 43,
+    "name": "PlayStation 5",
+    "description": "PlayStation 5 - sản phẩm chất lượng cao với nhiều tính năng hiện đại.",
+    "thumbnail": "https://picsum.photos/seed/43/200/200",
+    "price": 36694508,
+    "priceDiscount": 25687411,
+    "rating": 4.4
+  },
+  {
+    "id": 44,
+    "name": "Sony WH-1000XM5",
+    "description": "Sony WH-1000XM5 - sản phẩm chất lượng cao với nhiều tính năng hiện đại.",
+    "thumbnail": "https://picsum.photos/seed/44/200/200",
+    "price": 18309878,
+    "priceDiscount": 10953450,
+    "rating": 4.4
+  },
+  {
+    "id": 45,
+    "name": "Asus ROG Phone",
+    "description": "Asus ROG Phone - sản phẩm chất lượng cao với nhiều tính năng hiện đại.",
+    "thumbnail": "https://picsum.photos/seed/45/200/200",
+    "price": 40553946,
+    "priceDiscount": 30509602,
+    "rating": 4.9
+  },
+  {
+    "id": 46,
+    "name": "Asus ROG Phone",
+    "description": "Asus ROG Phone - sản phẩm chất lượng cao với nhiều tính năng hiện đại.",
+    "thumbnail": "https://picsum.photos/seed/46/200/200",
+    "price": 23014281,
+    "priceDiscount": 21622131,
+    "rating": 3.8
+  },
+  {
+    "id": 47,
+    "name": "iPad Air",
+    "description": "iPad Air - sản phẩm chất lượng cao với nhiều tính năng hiện đại.",
+    "thumbnail": "https://picsum.photos/seed/47/200/200",
+    "price": 39426644,
+    "priceDiscount": 33750885,
+    "rating": 2.6
+  },
+  {
+    "id": 48,
+    "name": "Apple Watch Ultra",
+    "description": "Apple Watch Ultra - sản phẩm chất lượng cao với nhiều tính năng hiện đại.",
+    "thumbnail": "https://picsum.photos/seed/48/200/200",
+    "price": 16286148,
+    "priceDiscount": 15129603,
+    "rating": 3.3
+  },
+  {
+    "id": 49,
+    "name": "Xbox Series X",
+    "description": "Xbox Series X - sản phẩm chất lượng cao với nhiều tính năng hiện đại.",
+    "thumbnail": "https://picsum.photos/seed/49/200/200",
+    "price": 16101276,
+    "priceDiscount": 9642930,
+    "rating": 3.0
+  },
+  {
+    "id": 50,
+    "name": "Apple Watch Ultra",
+    "description": "Apple Watch Ultra - sản phẩm chất lượng cao với nhiều tính năng hiện đại.",
+    "thumbnail": "https://picsum.photos/seed/50/200/200",
+    "price": 32016247,
+    "priceDiscount": 28091555,
+    "rating": 4.8
+  }
+]

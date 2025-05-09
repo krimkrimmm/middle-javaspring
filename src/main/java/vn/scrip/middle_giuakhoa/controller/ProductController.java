@@ -1,51 +1,53 @@
 package vn.scrip.middle_giuakhoa.controller;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
-import vn.scrip.middle_giuakhoa.service.ProductService;
 import vn.scrip.middle_giuakhoa.model.Product;
 
+import vn.scrip.middle_giuakhoa.service.ProductService;
 import java.util.List;
 @Controller
-@RequestMapping("/")
 public class ProductController {
-    private final ProductService productService;
+    @Autowired
+    private ProductService productService;
 
-    public ProductController(ProductService productService) {
-        this.productService = productService;
-    }
-
-    @GetMapping
-    public String listProducts(
-            @RequestParam(name = "keyword", required = false, defaultValue = "") String keyword,
-            @RequestParam(name = "minPrice", required = false, defaultValue = "0") double minPrice,
-            @RequestParam(name = "maxPrice", required = false, defaultValue = "1000000000") double maxPrice,
-            @RequestParam(name = "page", defaultValue = "0") int page,
-            @RequestParam(name = "size", defaultValue = "5") int size,
-            Model model) {
-
-
-        List<Product> products = productService.getFilteredProducts(keyword.trim(), minPrice, maxPrice);
-        int totalProducts = products.size();
-        int totalPages = (int) Math.ceil((double) totalProducts / size);
-        int fromIndex = Math.min(page * size, totalProducts);
-        int toIndex = Math.min(fromIndex + size, totalProducts);
-        List<Product> paginatedProducts = (totalProducts > 0) ? products.subList(fromIndex, toIndex) : List.of();
-        model.addAttribute("products", paginatedProducts);
-        model.addAttribute("currentPage", page);
-        model.addAttribute("totalPages", totalPages);
-
-        model.addAttribute("size", size);
+    @GetMapping("/")
+    public String getAllProducts(Model model)
+    {
+        List<Product> products = productService.getAll();
+        model.addAttribute("products", products);
         return "products";
     }
     @GetMapping("/products/{id}")
-    public String productDetail(@PathVariable int id, Model model) {
-        Product product = productService.getProductById(id);
-        if (product == null) {
-            return "redirect:/error";
-        }
-
+    public String getProductDetail(@PathVariable int id, Model model) {
+        Product product = productService.getById(id);
         model.addAttribute("product", product);
         return "product-detail";
+    }
+        @GetMapping("/")
+        public String listProducts(
+                @RequestParam(defaultValue = "") String keyword,
+                @RequestParam(required = false) Integer min,
+                @RequestParam(required = false) Integer max,
+                @RequestParam(defaultValue = "price_asc") String sort,
+        @RequestParam(defaultValue = "1") int page,
+        @RequestParam(defaultValue = "8") int size,
+        Model model
+) {
+            List<Product> products = productService.search(keyword, min, max, sort, page, size);
+            int totalItems = productService.countFiltered(keyword, min, max);
+            int totalPages = (int) Math.ceil((double) totalItems / size);
+
+            model.addAttribute("products", products);
+            model.addAttribute("currentPage", page);
+            model.addAttribute("totalPages", totalPages);
+            model.addAttribute("keyword", keyword);
+            model.addAttribute("min", min);
+            model.addAttribute("max", max);
+            model.addAttribute("sort", sort);
+            return "products";
+        }
+
     }
 }

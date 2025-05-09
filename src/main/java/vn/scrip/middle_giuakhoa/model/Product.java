@@ -6,13 +6,13 @@ public class Product {
     private String description;
     private String thumbnail;
     private int price;
-    private Double rating;
-    private Integer priceDiscount;
+    private double rating;
+    private Integer priceDiscount; // nullable
 
-    // Constructors, Getters, Setters
-    public Product() {}
+    public Product() {
+    }
 
-    public Product(int id, String name, String description, String thumbnail, int price, Double rating, Integer priceDiscount) {
+    public Product(int id, String name, String description, String thumbnail, int price, double rating, Integer priceDiscount) {
         this.id = id;
         this.name = name;
         this.description = description;
@@ -21,6 +21,8 @@ public class Product {
         this.rating = rating;
         this.priceDiscount = priceDiscount;
     }
+
+    // Getter và Setter đầy đủ
 
     public int getId() {
         return id;
@@ -62,11 +64,11 @@ public class Product {
         this.price = price;
     }
 
-    public Double getRating() {
+    public double getRating() {
         return rating;
     }
 
-    public void setRating(Double rating) {
+    public void setRating(double rating) {
         this.rating = rating;
     }
 
