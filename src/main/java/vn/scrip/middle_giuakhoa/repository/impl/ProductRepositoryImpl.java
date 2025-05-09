@@ -1,5 +1,4 @@
 package vn.scrip.middle_giuakhoa.repository.impl;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 import vn.scrip.middle_giuakhoa.db.ProductDB;

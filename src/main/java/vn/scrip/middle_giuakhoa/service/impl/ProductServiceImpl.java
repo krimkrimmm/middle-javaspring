@@ -7,10 +7,13 @@ import vn.scrip.middle_giuakhoa.service.ProductService;
 
 import java.util.Comparator;
 import java.util.List;
+import java.util.stream.Stream;
+
 @Service
 public class ProductServiceImpl implements ProductService {
     @Autowired
     private ProductRepository productRepository;
+
     @Override
     public List<Product> search(String keyword, Integer minPrice, Integer maxPrice, String sort, int page, int size) {
         Stream<Product> stream = productRepository.findAll().stream();
@@ -44,8 +47,7 @@ public class ProductServiceImpl implements ProductService {
         return (int) search(keyword, minPrice, maxPrice, null, 1, Integer.MAX_VALUE).size();
     }
 
-
-
+}
 
 
 

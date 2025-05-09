@@ -48,6 +48,4 @@ public class ProductController {
             model.addAttribute("sort", sort);
             return "products";
         }
-
-    }
 }
