@@ -1,452 +1,452 @@
 [
   {
     "id": 1,
-    "name": "Orient - Nam RA-AR0003L10B Size 44mm",
-    "description": "Đồng hồ Orient màu Nâu dành cho nam, thiết kế tinh tế, size 44mm.",
-    "thumbnail": "https://via.placeholder.com/150?text=Watch+1",
-    "price": 9302403,
-    "rating": 4.2,
-    "priceDiscount": 7124795
+    "name": "Dell XPS 13",
+    "description": "Dell XPS 13 - sản phẩm chất lượng cao với nhiều tính năng hiện đại.",
+    "thumbnail": "https://picsum.photos/seed/1/200/200",
+    "price": 42444352,
+    "priceDiscount": 23944815,
+    "rating": 3.8
   },
   {
     "id": 2,
-    "name": "Casio - Nam AU1062-56E Size 40mm",
-    "description": "Đồng hồ Casio màu Bạc dành cho nam, thiết kế tinh tế, size 40mm.",
-    "thumbnail": "https://via.placeholder.com/150?text=Watch+2",
-    "price": 11622285,
-    "rating": 3.1,
-    "priceDiscount": 8705469
+    "name": "Samsung Galaxy S24",
+    "description": "Samsung Galaxy S24 - sản phẩm chất lượng cao với nhiều tính năng hiện đại.",
+    "thumbnail": "https://picsum.photos/seed/2/200/200",
+    "price": 27006431,
+    "priceDiscount": 17925382,
+    "rating": 3.7
   },
   {
     "id": 3,
-    "name": "Citizen - Nam RA-AR0003L10B Size 39mm",
-    "description": "Đồng hồ Citizen màu Nâu dành cho nam, thiết kế tinh tế, size 39mm.",
-    "thumbnail": "https://via.placeholder.com/150?text=Watch+3",
-    "price": 13448092,
-    "rating": 3.4,
-    "priceDiscount": 12021917
+    "name": "Asus ROG Phone",
+    "description": "Asus ROG Phone - sản phẩm chất lượng cao với nhiều tính năng hiện đại.",
+    "thumbnail": "https://picsum.photos/seed/3/200/200",
+    "price": 43603185,
+    "priceDiscount": 38573250,
+    "rating": 4.3
   },
   {
     "id": 4,
-    "name": "Citizen - Nam FAG02002W0 Size 43mm",
-    "description": "Đồng hồ Citizen màu Xanh dành cho nam, thiết kế tinh tế, size 43mm.",
-    "thumbnail": "https://via.placeholder.com/150?text=Watch+4",
-    "price": 8559782,
-    "rating": 3.1,
-    "priceDiscount": 6822087
+    "name": "iPhone 15",
+    "description": "iPhone 15 - sản phẩm chất lượng cao với nhiều tính năng hiện đại.",
+    "thumbnail": "https://picsum.photos/seed/4/200/200",
+    "price": 34884329,
+    "priceDiscount": 23512505,
+    "rating": 4.7
   },
   {
     "id": 5,
-    "name": "Casio - Nam RA-AR0005Y10B Size 40mm",
-    "description": "Đồng hồ Casio màu Nâu dành cho nam, thiết kế tinh tế, size 40mm.",
-    "thumbnail": "https://via.placeholder.com/150?text=Watch+5",
-    "price": 6500173,
-    "rating": 5.0,
-    "priceDiscount": 5450804
+    "name": "Google Pixel 8",
+    "description": "Google Pixel 8 - sản phẩm chất lượng cao với nhiều tính năng hiện đại.",
+    "thumbnail": "https://picsum.photos/seed/5/200/200",
+    "price": 45227711,
+    "priceDiscount": 40810308,
+    "rating": 4.8
   },
   {
     "id": 6,
-    "name": "Seiko - Nam FAG02003W0 Size 39mm",
-    "description": "Đồng hồ Seiko màu Vàng dành cho nam, thiết kế tinh tế, size 39mm.",
-    "thumbnail": "https://via.placeholder.com/150?text=Watch+6",
-    "price": 6945531,
-    "rating": 4.2,
-    "priceDiscount": 5800465
+    "name": "PlayStation 5",
+    "description": "PlayStation 5 - sản phẩm chất lượng cao với nhiều tính năng hiện đại.",
+    "thumbnail": "https://picsum.photos/seed/6/200/200",
+    "price": 4576467,
+    "priceDiscount": 2386690,
+    "rating": 2.6
   },
   {
     "id": 7,
-    "name": "Olympianus - Nam RA-AR0005Y10B Size 39mm",
-    "description": "Đồng hồ Olympianus màu Vàng dành cho nam, thiết kế tinh tế, size 39mm.",
-    "thumbnail": "https://via.placeholder.com/150?text=Watch+7",
-    "price": 12848774,
-    "rating": 3.1,
-    "priceDiscount": 9714911
+    "name": "iPad Air",
+    "description": "iPad Air - sản phẩm chất lượng cao với nhiều tính năng hiện đại.",
+    "thumbnail": "https://picsum.photos/seed/7/200/200",
+    "price": 43397260,
+    "priceDiscount": 24336699,
+    "rating": 4.8
   },
   {
     "id": 8,
-    "name": "Orient - Nam FAG02002W0 Size 43mm",
-    "description": "Đồng hồ Orient màu Nâu dành cho nam, thiết kế tinh tế, size 43mm.",
-    "thumbnail": "https://via.placeholder.com/150?text=Watch+8",
-    "price": 9277993,
-    "rating": 3.5,
-    "priceDiscount": 6807551
+    "name": "Canon EOS R8",
+    "description": "Canon EOS R8 - sản phẩm chất lượng cao với nhiều tính năng hiện đại.",
+    "thumbnail": "https://picsum.photos/seed/8/200/200",
+    "price": 10426385,
+    "priceDiscount": 9122743,
+    "rating": 3.6
   },
   {
     "id": 9,
-    "name": "Seiko - Nam RA-AR0003L10B Size 41mm",
-    "description": "Đồng hồ Seiko màu Nâu dành cho nam, thiết kế tinh tế, size 41mm.",
-    "thumbnail": "https://via.placeholder.com/150?text=Watch+9",
-    "price": 4044451,
-    "rating": 4.2,
-    "priceDiscount": 3045898
+    "name": "MacBook Pro M3",
+    "description": "MacBook Pro M3 - sản phẩm chất lượng cao với nhiều tính năng hiện đại.",
+    "thumbnail": "https://picsum.photos/seed/9/200/200",
+    "price": 36298970,
+    "priceDiscount": 23205798,
+    "rating": 4.6
   },
   {
     "id": 10,
-    "name": "Casio - Nam AU1062-56E Size 39mm",
-    "description": "Đồng hồ Casio màu Vàng dành cho nam, thiết kế tinh tế, size 39mm.",
-    "thumbnail": "https://via.placeholder.com/150?text=Watch+10",
-    "price": 16569584,
-    "rating": 4.5,
-    "priceDiscount": 14240093
+    "name": "iPhone 15",
+    "description": "iPhone 15 - sản phẩm chất lượng cao với nhiều tính năng hiện đại.",
+    "thumbnail": "https://picsum.photos/seed/10/200/200",
+    "price": 44613192,
+    "priceDiscount": 41406287,
+    "rating": 4.8
   },
   {
     "id": 11,
-    "name": "Olympianus - Nam AU1062-56E Size 39mm",
-    "description": "Đồng hồ Olympianus màu Trắng dành cho nam, thiết kế tinh tế, size 39mm.",
-    "thumbnail": "https://via.placeholder.com/150?text=Watch+11",
-    "price": 8414474,
-    "rating": 4.8,
-    "priceDiscount": 6641257
+    "name": "Dell XPS 13",
+    "description": "Dell XPS 13 - sản phẩm chất lượng cao với nhiều tính năng hiện đại.",
+    "thumbnail": "https://picsum.photos/seed/11/200/200",
+    "price": 13598228,
+    "priceDiscount": 8275228,
+    "rating": 4.4
   },
   {
     "id": 12,
-    "name": "Carnival - Nam FAG02003W0 Size 40mm",
-    "description": "Đồng hồ Carnival màu Trắng dành cho nam, thiết kế tinh tế, size 40mm.",
-    "thumbnail": "https://via.placeholder.com/150?text=Watch+12",
-    "price": 10066079,
-    "rating": 4.3,
-    "priceDiscount": 8964322
+    "name": "PlayStation 5",
+    "description": "PlayStation 5 - sản phẩm chất lượng cao với nhiều tính năng hiện đại.",
+    "thumbnail": "https://picsum.photos/seed/12/200/200",
+    "price": 45863549,
+    "priceDiscount": 36312449,
+    "rating": 3.9
   },
   {
     "id": 13,
-    "name": "Carnival - Nam NJ0151-88M Size 39mm",
-    "description": "Đồng hồ Carnival màu Nâu dành cho nam, thiết kế tinh tế, size 39mm.",
-    "thumbnail": "https://via.placeholder.com/150?text=Watch+13",
-    "price": 12047950,
-    "rating": 4.3,
-    "priceDiscount": 8519086
+    "name": "iPhone 15",
+    "description": "iPhone 15 - sản phẩm chất lượng cao với nhiều tính năng hiện đại.",
+    "thumbnail": "https://picsum.photos/seed/13/200/200",
+    "price": 41618023,
+    "priceDiscount": 32105945,
+    "rating": 3.5
   },
   {
     "id": 14,
-    "name": "Seiko - Nam SSK001K1 Size 42mm",
-    "description": "Đồng hồ Seiko màu Nâu dành cho nam, thiết kế tinh tế, size 42mm.",
-    "thumbnail": "https://via.placeholder.com/150?text=Watch+14",
-    "price": 18521236,
-    "rating": 4.3,
-    "priceDiscount": null
+    "name": "Google Pixel 8",
+    "description": "Google Pixel 8 - sản phẩm chất lượng cao với nhiều tính năng hiện đại.",
+    "thumbnail": "https://picsum.photos/seed/14/200/200",
+    "price": 26532091,
+    "priceDiscount": 22116463,
+    "rating": 4.6
   },
   {
     "id": 15,
-    "name": "Orient - Nam RA-AR0003L10B Size 40mm",
-    "description": "Đồng hồ Orient màu Vàng dành cho nam, thiết kế tinh tế, size 40mm.",
-    "thumbnail": "https://via.placeholder.com/150?text=Watch+15",
-    "price": 8749479,
-    "rating": 4.3,
-    "priceDiscount": 6837979
+    "name": "Canon EOS R8",
+    "description": "Canon EOS R8 - sản phẩm chất lượng cao với nhiều tính năng hiện đại.",
+    "thumbnail": "https://picsum.photos/seed/15/200/200",
+    "price": 15719137,
+    "priceDiscount": 14100346,
+    "rating": 4.1
   },
   {
     "id": 16,
-    "name": "Olympianus - Nam NJ0151-88M Size 44mm",
-    "description": "Đồng hồ Olympianus màu Đen dành cho nam, thiết kế tinh tế, size 44mm.",
-    "thumbnail": "https://via.placeholder.com/150?text=Watch+16",
-    "price": 11542687,
-    "rating": 3.8,
-    "priceDiscount": 8722302
+    "name": "Google Pixel 8",
+    "description": "Google Pixel 8 - sản phẩm chất lượng cao với nhiều tính năng hiện đại.",
+    "thumbnail": "https://picsum.photos/seed/16/200/200",
+    "price": 40321422,
+    "priceDiscount": 35092962,
+    "rating": 4.7
   },
   {
     "id": 17,
-    "name": "Carnival - Nam SSK001K1 Size 41mm",
-    "description": "Đồng hồ Carnival màu Bạc dành cho nam, thiết kế tinh tế, size 41mm.",
-    "thumbnail": "https://via.placeholder.com/150?text=Watch+17",
-    "price": 15081308,
-    "rating": 3.4,
-    "priceDiscount": 11258472
+    "name": "Canon EOS R8",
+    "description": "Canon EOS R8 - sản phẩm chất lượng cao với nhiều tính năng hiện đại.",
+    "thumbnail": "https://picsum.photos/seed/17/200/200",
+    "price": 8942239,
+    "priceDiscount": 7526820,
+    "rating": 2.9
   },
   {
     "id": 18,
-    "name": "Olympianus - Nam FAG02003W0 Size 40mm",
-    "description": "Đồng hồ Olympianus màu Xanh dành cho nam, thiết kế tinh tế, size 40mm.",
-    "thumbnail": "https://via.placeholder.com/150?text=Watch+18",
-    "price": 12785952,
-    "rating": 3.2,
-    "priceDiscount": 10906104
+    "name": "Nikon Z6 II",
+    "description": "Nikon Z6 II - sản phẩm chất lượng cao với nhiều tính năng hiện đại.",
+    "thumbnail": "https://picsum.photos/seed/18/200/200",
+    "price": 46470027,
+    "priceDiscount": 35846876,
+    "rating": 3.3
   },
   {
     "id": 19,
-    "name": "Carnival - Nam SSK001K1 Size 39mm",
-    "description": "Đồng hồ Carnival màu Bạc dành cho nam, thiết kế tinh tế, size 39mm.",
-    "thumbnail": "https://via.placeholder.com/150?text=Watch+19",
-    "price": 5715024,
-    "rating": 4.7,
-    "priceDiscount": 4132157
+    "name": "Dell XPS 13",
+    "description": "Dell XPS 13 - sản phẩm chất lượng cao với nhiều tính năng hiện đại.",
+    "thumbnail": "https://picsum.photos/seed/19/200/200",
+    "price": 9408555,
+    "priceDiscount": 6711833,
+    "rating": 4.0
   },
   {
     "id": 20,
-    "name": "Citizen - Nam SSK001K1 Size 44mm",
-    "description": "Đồng hồ Citizen màu Trắng dành cho nam, thiết kế tinh tế, size 44mm.",
-    "thumbnail": "https://via.placeholder.com/150?text=Watch+20",
-    "price": 16521679,
-    "rating": 3.8,
-    "priceDiscount": 12170292
+    "name": "PlayStation 5",
+    "description": "PlayStation 5 - sản phẩm chất lượng cao với nhiều tính năng hiện đại.",
+    "thumbnail": "https://picsum.photos/seed/20/200/200",
+    "price": 49781334,
+    "priceDiscount": 31354436,
+    "rating": 4.3
   },
   {
     "id": 21,
-    "name": "Seiko - Nam FAG00003W0 Size 41mm",
-    "description": "Đồng hồ Seiko màu Vàng dành cho nam, thiết kế tinh tế, size 41mm.",
-    "thumbnail": "https://via.placeholder.com/150?text=Watch+21",
-    "price": 8018410,
-    "rating": 3.8,
-    "priceDiscount": 6271275
+    "name": "Apple Watch Ultra",
+    "description": "Apple Watch Ultra - sản phẩm chất lượng cao với nhiều tính năng hiện đại.",
+    "thumbnail": "https://picsum.photos/seed/21/200/200",
+    "price": 14139808,
+    "priceDiscount": 13378224,
+    "rating": 2.9
   },
   {
     "id": 22,
-    "name": "Casio - Nam RA-AR0005Y10B Size 42mm",
-    "description": "Đồng hồ Casio màu Vàng dành cho nam, thiết kế tinh tế, size 42mm.",
-    "thumbnail": "https://via.placeholder.com/150?text=Watch+22",
-    "price": 11465035,
-    "rating": 4.2,
-    "priceDiscount": 10196585
+    "name": "Samsung Galaxy S24",
+    "description": "Samsung Galaxy S24 - sản phẩm chất lượng cao với nhiều tính năng hiện đại.",
+    "thumbnail": "https://picsum.photos/seed/22/200/200",
+    "price": 45874371,
+    "priceDiscount": 40338402,
+    "rating": 2.7
   },
   {
     "id": 23,
-    "name": "Casio - Nam FAG00003W0 Size 39mm",
-    "description": "Đồng hồ Casio màu Đen dành cho nam, thiết kế tinh tế, size 39mm.",
-    "thumbnail": "https://via.placeholder.com/150?text=Watch+23",
-    "price": 19855594,
-    "rating": 3.6,
-    "priceDiscount": 15959270
+    "name": "Apple Watch Ultra",
+    "description": "Apple Watch Ultra - sản phẩm chất lượng cao với nhiều tính năng hiện đại.",
+    "thumbnail": "https://picsum.photos/seed/23/200/200",
+    "price": 34240106,
+    "priceDiscount": 25832264,
+    "rating": 4.4
   },
   {
     "id": 24,
-    "name": "Casio - Nam RA-AR0003L10B Size 43mm",
-    "description": "Đồng hồ Casio màu Xanh dành cho nam, thiết kế tinh tế, size 43mm.",
-    "thumbnail": "https://via.placeholder.com/150?text=Watch+24",
-    "price": 13972311,
-    "rating": 3.7,
-    "priceDiscount": 12408252
+    "name": "Asus ROG Phone",
+    "description": "Asus ROG Phone - sản phẩm chất lượng cao với nhiều tính năng hiện đại.",
+    "thumbnail": "https://picsum.photos/seed/24/200/200",
+    "price": 27233300,
+    "priceDiscount": 19899418,
+    "rating": 3.6
   },
   {
     "id": 25,
-    "name": "Citizen - Nam RA-AR0005Y10B Size 41mm",
-    "description": "Đồng hồ Citizen màu Nâu dành cho nam, thiết kế tinh tế, size 41mm.",
-    "thumbnail": "https://via.placeholder.com/150?text=Watch+25",
-    "price": 14035498,
-    "rating": 3.1,
-    "priceDiscount": 11059242
+    "name": "iPad Air",
+    "description": "iPad Air - sản phẩm chất lượng cao với nhiều tính năng hiện đại.",
+    "thumbnail": "https://picsum.photos/seed/25/200/200",
+    "price": 1918781,
+    "priceDiscount": 1307707,
+    "rating": 3.1
   },
   {
     "id": 26,
-    "name": "Citizen - Nam SSK001K1 Size 40mm",
-    "description": "Đồng hồ Citizen màu Đen dành cho nam, thiết kế tinh tế, size 40mm.",
-    "thumbnail": "https://via.placeholder.com/150?text=Watch+26",
-    "price": 3692112,
-    "rating": 3.6,
-    "priceDiscount": 3295046
+    "name": "LG OLED TV",
+    "description": "LG OLED TV - sản phẩm chất lượng cao với nhiều tính năng hiện đại.",
+    "thumbnail": "https://picsum.photos/seed/26/200/200",
+    "price": 30765849,
+    "priceDiscount": 26968505,
+    "rating": 2.6
   },
   {
     "id": 27,
-    "name": "Carnival - Nam RA-AR0003L10B Size 41mm",
-    "description": "Đồng hồ Carnival màu Bạc dành cho nam, thiết kế tinh tế, size 41mm.",
-    "thumbnail": "https://via.placeholder.com/150?text=Watch+27",
-    "price": 18054830,
-    "rating": 4.4,
-    "priceDiscount": 13628711
+    "name": "MacBook Pro M3",
+    "description": "MacBook Pro M3 - sản phẩm chất lượng cao với nhiều tính năng hiện đại.",
+    "thumbnail": "https://picsum.photos/seed/27/200/200",
+    "price": 13592002,
+    "priceDiscount": 12279994,
+    "rating": 4.5
   },
   {
     "id": 28,
-    "name": "Orient - Nam SSK001K1 Size 42mm",
-    "description": "Đồng hồ Orient màu Bạc dành cho nam, thiết kế tinh tế, size 42mm.",
-    "thumbnail": "https://via.placeholder.com/150?text=Watch+28",
-    "price": 15738427,
-    "rating": 3.0,
-    "priceDiscount": null
+    "name": "MacBook Pro M3",
+    "description": "MacBook Pro M3 - sản phẩm chất lượng cao với nhiều tính năng hiện đại.",
+    "thumbnail": "https://picsum.photos/seed/28/200/200",
+    "price": 22346978,
+    "priceDiscount": 16568088,
+    "rating": 2.5
   },
   {
     "id": 29,
-    "name": "Citizen - Nam RA-AR0005Y10B Size 44mm",
-    "description": "Đồng hồ Citizen màu Xanh dành cho nam, thiết kế tinh tế, size 44mm.",
-    "thumbnail": "https://via.placeholder.com/150?text=Watch+29",
-    "price": 17836454,
-    "rating": 3.9,
-    "priceDiscount": 12800963
+    "name": "Sony WH-1000XM5",
+    "description": "Sony WH-1000XM5 - sản phẩm chất lượng cao với nhiều tính năng hiện đại.",
+    "thumbnail": "https://picsum.photos/seed/29/200/200",
+    "price": 3213072,
+    "priceDiscount": 2606810,
+    "rating": 4.2
   },
   {
     "id": 30,
-    "name": "Orient - Nam RA-AA0B02R19B Size 41mm",
-    "description": "Đồng hồ Orient màu Xanh dành cho nam, thiết kế tinh tế, size 41mm.",
-    "thumbnail": "https://via.placeholder.com/150?text=Watch+30",
-    "price": 4034649,
-    "rating": 4.8,
-    "priceDiscount": 3231566
+    "name": "Google Pixel 8",
+    "description": "Google Pixel 8 - sản phẩm chất lượng cao với nhiều tính năng hiện đại.",
+    "thumbnail": "https://picsum.photos/seed/30/200/200",
+    "price": 24908640,
+    "priceDiscount": 15696686,
+    "rating": 4.5
   },
   {
     "id": 31,
-    "name": "Carnival - Nam FAG00003W0 Size 44mm",
-    "description": "Đồng hồ Carnival màu Đen dành cho nam, thiết kế tinh tế, size 44mm.",
-    "thumbnail": "https://via.placeholder.com/150?text=Watch+31",
-    "price": 15826727,
-    "rating": 3.2,
-    "priceDiscount": 13044619
+    "name": "Canon EOS R8",
+    "description": "Canon EOS R8 - sản phẩm chất lượng cao với nhiều tính năng hiện đại.",
+    "thumbnail": "https://picsum.photos/seed/31/200/200",
+    "price": 36415922,
+    "priceDiscount": 31484113,
+    "rating": 3.0
   },
   {
     "id": 32,
-    "name": "Casio - Nam NJ0151-88M Size 40mm",
-    "description": "Đồng hồ Casio màu Trắng dành cho nam, thiết kế tinh tế, size 40mm.",
-    "thumbnail": "https://via.placeholder.com/150?text=Watch+32",
-    "price": 11590170,
-    "rating": 3.2,
-    "priceDiscount": null
+    "name": "Asus ROG Phone",
+    "description": "Asus ROG Phone - sản phẩm chất lượng cao với nhiều tính năng hiện đại.",
+    "thumbnail": "https://picsum.photos/seed/32/200/200",
+    "price": 45005627,
+    "priceDiscount": 26742802,
+    "rating": 2.6
   },
   {
     "id": 33,
-    "name": "Casio - Nam FAG00003W0 Size 39mm",
-    "description": "Đồng hồ Casio màu Xanh dành cho nam, thiết kế tinh tế, size 39mm.",
-    "thumbnail": "https://via.placeholder.com/150?text=Watch+33",
-    "price": 8891571,
-    "rating": 5.0,
-    "priceDiscount": 7533808
+    "name": "Google Pixel 8",
+    "description": "Google Pixel 8 - sản phẩm chất lượng cao với nhiều tính năng hiện đại.",
+    "thumbnail": "https://picsum.photos/seed/33/200/200",
+    "price": 48722793,
+    "priceDiscount": 28094500,
+    "rating": 3.2
   },
   {
     "id": 34,
-    "name": "Casio - Nam SSK001K1 Size 41mm",
-    "description": "Đồng hồ Casio màu Trắng dành cho nam, thiết kế tinh tế, size 41mm.",
-    "thumbnail": "https://via.placeholder.com/150?text=Watch+34",
-    "price": 7491984,
-    "rating": 3.0,
-    "priceDiscount": 6050348
+    "name": "PlayStation 5",
+    "description": "PlayStation 5 - sản phẩm chất lượng cao với nhiều tính năng hiện đại.",
+    "thumbnail": "https://picsum.photos/seed/34/200/200",
+    "price": 29571860,
+    "priceDiscount": 16778117,
+    "rating": 5.0
   },
   {
     "id": 35,
-    "name": "Seiko - Nam FAG00003W0 Size 42mm",
-    "description": "Đồng hồ Seiko màu Bạc dành cho nam, thiết kế tinh tế, size 42mm.",
-    "thumbnail": "https://via.placeholder.com/150?text=Watch+35",
-    "price": 17446655,
-    "rating": 4.8,
-    "priceDiscount": null
+    "name": "Canon EOS R8",
+    "description": "Canon EOS R8 - sản phẩm chất lượng cao với nhiều tính năng hiện đại.",
+    "thumbnail": "https://picsum.photos/seed/35/200/200",
+    "price": 39542088,
+    "priceDiscount": 22340958,
+    "rating": 4.9
   },
   {
     "id": 36,
-    "name": "Olympianus - Nam RA-AR0005Y10B Size 43mm",
-    "description": "Đồng hồ Olympianus màu Nâu dành cho nam, thiết kế tinh tế, size 43mm.",
-    "thumbnail": "https://via.placeholder.com/150?text=Watch+36",
-    "price": 7658628,
-    "rating": 4.6,
-    "priceDiscount": null
+    "name": "Xiaomi Redmi Note 13",
+    "description": "Xiaomi Redmi Note 13 - sản phẩm chất lượng cao với nhiều tính năng hiện đại.",
+    "thumbnail": "https://picsum.photos/seed/36/200/200",
+    "price": 41667805,
+    "priceDiscount": 33591312,
+    "rating": 3.3
   },
   {
     "id": 37,
-    "name": "Olympianus - Nam RA-AR0003L10B Size 44mm",
-    "description": "Đồng hồ Olympianus màu Xanh dành cho nam, thiết kế tinh tế, size 44mm.",
-    "thumbnail": "https://via.placeholder.com/150?text=Watch+37",
-    "price": 7404851,
-    "rating": 3.0,
-    "priceDiscount": 6516396
+    "name": "iPhone 15",
+    "description": "iPhone 15 - sản phẩm chất lượng cao với nhiều tính năng hiện đại.",
+    "thumbnail": "https://picsum.photos/seed/37/200/200",
+    "price": 7976946,
+    "priceDiscount": 5481514,
+    "rating": 4.6
   },
   {
     "id": 38,
-    "name": "Casio - Nam NJ0151-88M Size 42mm",
-    "description": "Đồng hồ Casio màu Nâu dành cho nam, thiết kế tinh tế, size 42mm.",
-    "thumbnail": "https://via.placeholder.com/150?text=Watch+38",
-    "price": 13888430,
-    "rating": 3.1,
-    "priceDiscount": null
+    "name": "PlayStation 5",
+    "description": "PlayStation 5 - sản phẩm chất lượng cao với nhiều tính năng hiện đại.",
+    "thumbnail": "https://picsum.photos/seed/38/200/200",
+    "price": 9880099,
+    "priceDiscount": 7098535,
+    "rating": 4.0
   },
   {
     "id": 39,
-    "name": "Carnival - Nam FAG00003W0 Size 41mm",
-    "description": "Đồng hồ Carnival màu Trắng dành cho nam, thiết kế tinh tế, size 41mm.",
-    "thumbnail": "https://via.placeholder.com/150?text=Watch+39",
-    "price": 6714784,
-    "rating": 3.0,
-    "priceDiscount": null
+    "name": "Canon EOS R8",
+    "description": "Canon EOS R8 - sản phẩm chất lượng cao với nhiều tính năng hiện đại.",
+    "thumbnail": "https://picsum.photos/seed/39/200/200",
+    "price": 4009796,
+    "priceDiscount": 3658736,
+    "rating": 2.8
   },
   {
     "id": 40,
-    "name": "Carnival - Nam RA-AR0005Y10B Size 41mm",
-    "description": "Đồng hồ Carnival màu Xanh dành cho nam, thiết kế tinh tế, size 41mm.",
-    "thumbnail": "https://via.placeholder.com/150?text=Watch+40",
-    "price": 14231441,
-    "rating": 3.7,
-    "priceDiscount": 11863744
+    "name": "Samsung Galaxy S24",
+    "description": "Samsung Galaxy S24 - sản phẩm chất lượng cao với nhiều tính năng hiện đại.",
+    "thumbnail": "https://picsum.photos/seed/40/200/200",
+    "price": 1224243,
+    "priceDiscount": 951030,
+    "rating": 2.7
   },
   {
     "id": 41,
-    "name": "Casio - Nam SSK001K1 Size 44mm",
-    "description": "Đồng hồ Casio màu Bạc dành cho nam, thiết kế tinh tế, size 44mm.",
-    "thumbnail": "https://via.placeholder.com/150?text=Watch+41",
-    "price": 10931383,
-    "rating": 3.7,
-    "priceDiscount": null
+    "name": "Asus ROG Phone",
+    "description": "Asus ROG Phone - sản phẩm chất lượng cao với nhiều tính năng hiện đại.",
+    "thumbnail": "https://picsum.photos/seed/41/200/200",
+    "price": 37360958,
+    "priceDiscount": 24561102,
+    "rating": 2.6
   },
   {
     "id": 42,
-    "name": "Carnival - Nam SPB121J1 Size 41mm",
-    "description": "Đồng hồ Carnival màu Trắng dành cho nam, thiết kế tinh tế, size 41mm.",
-    "thumbnail": "https://via.placeholder.com/150?text=Watch+42",
-    "price": 12025016,
-    "rating": 4.8,
-    "priceDiscount": 9751114
+    "name": "LG OLED TV",
+    "description": "LG OLED TV - sản phẩm chất lượng cao với nhiều tính năng hiện đại.",
+    "thumbnail": "https://picsum.photos/seed/42/200/200",
+    "price": 6910677,
+    "priceDiscount": 6309821,
+    "rating": 2.5
   },
   {
     "id": 43,
-    "name": "Casio - Nam RA-AR0005Y10B Size 41mm",
-    "description": "Đồng hồ Casio màu Đen dành cho nam, thiết kế tinh tế, size 41mm.",
-    "thumbnail": "https://via.placeholder.com/150?text=Watch+43",
-    "price": 11627903,
-    "rating": 3.9,
-    "priceDiscount": null
+    "name": "PlayStation 5",
+    "description": "PlayStation 5 - sản phẩm chất lượng cao với nhiều tính năng hiện đại.",
+    "thumbnail": "https://picsum.photos/seed/43/200/200",
+    "price": 36694508,
+    "priceDiscount": 25687411,
+    "rating": 4.4
   },
   {
     "id": 44,
-    "name": "Carnival - Nam RA-AR0003L10B Size 43mm",
-    "description": "Đồng hồ Carnival màu Nâu dành cho nam, thiết kế tinh tế, size 43mm.",
-    "thumbnail": "https://via.placeholder.com/150?text=Watch+44",
-    "price": 15672944,
-    "rating": 4.6,
-    "priceDiscount": 12380257
+    "name": "Sony WH-1000XM5",
+    "description": "Sony WH-1000XM5 - sản phẩm chất lượng cao với nhiều tính năng hiện đại.",
+    "thumbnail": "https://picsum.photos/seed/44/200/200",
+    "price": 18309878,
+    "priceDiscount": 10953450,
+    "rating": 4.4
   },
   {
     "id": 45,
-    "name": "Citizen - Nam FAG00003W0 Size 41mm",
-    "description": "Đồng hồ Citizen màu Xanh dành cho nam, thiết kế tinh tế, size 41mm.",
-    "thumbnail": "https://via.placeholder.com/150?text=Watch+45",
-    "price": 13279060,
-    "rating": 4.8,
-    "priceDiscount": null
+    "name": "Asus ROG Phone",
+    "description": "Asus ROG Phone - sản phẩm chất lượng cao với nhiều tính năng hiện đại.",
+    "thumbnail": "https://picsum.photos/seed/45/200/200",
+    "price": 40553946,
+    "priceDiscount": 30509602,
+    "rating": 4.9
   },
   {
     "id": 46,
-    "name": "Citizen - Nam FAG02002W0 Size 39mm",
-    "description": "Đồng hồ Citizen màu Đen dành cho nam, thiết kế tinh tế, size 39mm.",
-    "thumbnail": "https://via.placeholder.com/150?text=Watch+46",
-    "price": 10230502,
-    "rating": 3.2,
-    "priceDiscount": 9074099
+    "name": "Asus ROG Phone",
+    "description": "Asus ROG Phone - sản phẩm chất lượng cao với nhiều tính năng hiện đại.",
+    "thumbnail": "https://picsum.photos/seed/46/200/200",
+    "price": 23014281,
+    "priceDiscount": 21622131,
+    "rating": 3.8
   },
   {
     "id": 47,
-    "name": "Carnival - Nam SSK001K1 Size 39mm",
-    "description": "Đồng hồ Carnival màu Nâu dành cho nam, thiết kế tinh tế, size 39mm.",
-    "thumbnail": "https://via.placeholder.com/150?text=Watch+47",
-    "price": 9161411,
-    "rating": 3.3,
-    "priceDiscount": null
+    "name": "iPad Air",
+    "description": "iPad Air - sản phẩm chất lượng cao với nhiều tính năng hiện đại.",
+    "thumbnail": "https://picsum.photos/seed/47/200/200",
+    "price": 39426644,
+    "priceDiscount": 33750885,
+    "rating": 2.6
   },
   {
     "id": 48,
-    "name": "Olympianus - Nam FAG02002W0 Size 40mm",
-    "description": "Đồng hồ Olympianus màu Xanh dành cho nam, thiết kế tinh tế, size 40mm.",
-    "thumbnail": "https://via.placeholder.com/150?text=Watch+48",
-    "price": 13325649,
-    "rating": 4.6,
-    "priceDiscount": 11307314
+    "name": "Apple Watch Ultra",
+    "description": "Apple Watch Ultra - sản phẩm chất lượng cao với nhiều tính năng hiện đại.",
+    "thumbnail": "https://picsum.photos/seed/48/200/200",
+    "price": 16286148,
+    "priceDiscount": 15129603,
+    "rating": 3.3
   },
   {
     "id": 49,
-    "name": "Citizen - Nam FAG00003W0 Size 42mm",
-    "description": "Đồng hồ Citizen màu Nâu dành cho nam, thiết kế tinh tế, size 42mm.",
-    "thumbnail": "https://via.placeholder.com/150?text=Watch+49",
-    "price": 15957651,
-    "rating": 4.1,
-    "priceDiscount": 14098877
+    "name": "Xbox Series X",
+    "description": "Xbox Series X - sản phẩm chất lượng cao với nhiều tính năng hiện đại.",
+    "thumbnail": "https://picsum.photos/seed/49/200/200",
+    "price": 16101276,
+    "priceDiscount": 9642930,
+    "rating": 3.0
   },
   {
     "id": 50,
-    "name": "Casio - Nam RA-AA0B02R19B Size 43mm",
-    "description": "Đồng hồ Casio màu Vàng dành cho nam, thiết kế tinh tế, size 43mm.",
-    "thumbnail": "https://via.placeholder.com/150?text=Watch+50",
-    "price": 13697314,
-    "rating": 4.3,
-    "priceDiscount": 10137864
+    "name": "Apple Watch Ultra",
+    "description": "Apple Watch Ultra - sản phẩm chất lượng cao với nhiều tính năng hiện đại.",
+    "thumbnail": "https://picsum.photos/seed/50/200/200",
+    "price": 32016247,
+    "priceDiscount": 28091555,
+    "rating": 4.8
   }
 ]

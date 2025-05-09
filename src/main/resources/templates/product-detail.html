@@ -1,17 +1,25 @@
-<!-- templates/product-detail.html -->
 <!DOCTYPE html>
 <html xmlns:th="http://www.thymeleaf.org">
 <head>
+    <meta charset="UTF-8">
     <title>Chi tiết sản phẩm</title>
-    <link rel="stylesheet" href="/css/style2.css">
+    <link rel="stylesheet" th:href="@{/css/style.css}">
 </head>
 <body>
-<h1 th:text="${product.name}"></h1>
-<img th:src="${product.thumbnail}" alt="thumbnail" width="300">
-<p th:text="${product.description}"></p>
-<p>Giá gốc: <del th:text="${product.price}"></del> VNĐ</p>
-<p>Giá giảm: <span th:text="${product.priceDiscount}">Không có</span> VNĐ</p>
-<p>Đánh giá: <span th:text="${product.rating}"></span> ⭐</p>
-<a href="/">Quay lại danh sách</a>
+<header>
+    <h1 th:text="${product.name}">Tên sản phẩm</h1>
+</header>
+<main>
+    <div class="product-detail">
+        <img th:src="${product.thumbnail}" alt="Ảnh sản phẩm">
+        <p class="description" th:text="${product.description}">Mô tả sản phẩm</p>
+        <p class="price">
+            <span th:if="${product.priceDiscount != null}" class="discounted-price" th:text="${#numbers.formatDecimal(product.priceDiscount, 0, 'COMMA', '.', '') + ' VND'}"></span>
+            <span th:if="${product.priceDiscount != null}" class="original-price" th:text="${#numbers.formatDecimal(product.price, 0, 'COMMA', '.', '') + ' VND'}"></span>
+            <span th:if="${product.priceDiscount == null}" class="price" th:text="${#numbers.formatDecimal(product.price, 0, 'COMMA', '.', '') + ' VND'}"></span>
+        </p>
+        <p class="rating">Đánh giá: <span th:text="${product.rating}"></span> ★</p>
+    </div>
+</main>
 </body>
 </html>

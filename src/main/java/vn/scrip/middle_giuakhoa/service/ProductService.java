@@ -1,10 +1,10 @@
 package vn.scrip.middle_giuakhoa.service;
-
 import vn.scrip.middle_giuakhoa.model.Product;
-
 import java.util.List;
+import java.util.Optional;
+
 public interface ProductService
 {
-    List<Product> search(String keyword, Integer minPrice, Integer maxPrice, String sort, int page, int size);
-    int countFiltered(String keyword, Integer minPrice, Integer maxPrice);
+    List<Product> getAllProducts();
+    Optional<Product> getProductById(int id);
 }

@@ -8,12 +8,3 @@ public interface ProductRepository
     List<Product> findAll();
     Optional<Product> findById(int id);
 }
-
-
-
-
-
-
-
-
-

@@ -1,10 +1,13 @@
 <!-- templates/error.html -->
 <!DOCTYPE html>
 <html xmlns:th="http://www.thymeleaf.org">
-<head><title>Lỗi</title></head>
+<head>
+    <meta charset="UTF-8">
+    <title>Lỗi</title>
+    <link rel="stylesheet" th:href="@{/css/style.css}">
+</head>
 <body>
-<h1>Oops! Có lỗi xảy ra.</h1>
-<p>Trang bạn yêu cầu hiện không tồn tại hoặc có lỗi xử lý.</p>
-<a href="/">Quay lại trang chủ</a>
+<h1>404 - Không tìm thấy sản phẩm</h1>
+<a th:href="@{/}">← Về trang chủ</a>
 </body>
 </html>
