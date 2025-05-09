@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <title>Danh sách sản phẩm</title>
-    <link rel="stylesheet" th:href="@{/css/style.css}">
-    <link rel="stylesheet" th:href="@{/css/style2.css}">
+    <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
 <header>
     <h1>Danh sách sản phẩm</h1>
 </header>
+
 <main>
     <div class="product-grid">
         <div class="product-card" th:each="product : ${products}">
@@ -17,15 +17,25 @@
                 <img th:src="${product.thumbnail}" alt="Ảnh sản phẩm">
                 <h2 th:text="${product.name}"></h2>
                 <p class="price">
-                    <span th:if="${product.priceDiscount != null}" class="discounted-price" th:text="${#numbers.formatDecimal(product.priceDiscount, 0, 'COMMA', '.', '') + ' VND'}"></span>
-                    <span th:if="${product.priceDiscount != null}" class="original-price" th:text="${#numbers.formatDecimal(product.price, 0, 'COMMA', '.', '') + ' VND'}"></span>
-                    <span th:if="${product.priceDiscount == null}" class="price" th:text="${#numbers.formatDecimal(product.price, 0, 'COMMA', '.', '') + ' VND'}"></span>
+                    <span th:if="${product.priceDiscount != null}" class="discounted-price"
+                          th:text="${#numbers.formatDecimal(product.priceDiscount, 0, 'COMMA', '.', '') + ' VND'}"></span>
+                    <span th:if="${product.priceDiscount != null}" class="original-price"
+                          th:text="${#numbers.formatDecimal(product.price, 0, 'COMMA', '.', '') + ' VND'}"></span>
+                    <span th:if="${product.priceDiscount == null}" th:text="${#numbers.formatDecimal(product.price, 0, 'COMMA', '.', '') + ' VND'}"></span>
                 </p>
                 <p class="rating">Đánh giá: <span th:text="${product.rating}"></span> ★</p>
             </a>
         </div>
     </div>
+
+    <!-- Phân trang -->
+    <div class="pagination">
+        <a href="#" class="active">1</a>
+        <a href="#">2</a>
+        <a href="#">3</a>
+        <a href="#">...</a>
+        <a href="#">10</a>
+    </div>
 </main>
-<script th:src="@{/js/main.js}"></script>
 </body>
 </html>

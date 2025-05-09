@@ -1,51 +1,67 @@
-/* Hover Effect for Product Cards */
+/* Layout khác với màu nền khác */
+body {
+    background-color: #ffffff;
+}
+
+/* 5 cột, tự chia 10 hàng nếu có 50 sản phẩm */
+.products {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 15px;
+    padding: 30px;
+}
+
+/* Item */
+.product {
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 8px;
+    text-align: center;
+    background-color: #fafafa;
+    transition: transform 0.2s;
+}
 .product:hover {
     transform: translateY(-5px);
-    transition: transform 0.3s ease;
+    box-shadow: 0 6px 12px rgba(0,0,0,0.1);
 }
-
-/* Hover Effect for Links */
-.product a:hover, .product-detail a:hover {
-    color: #007bff;
-    text-decoration: underline;
-}
-
-/* Hover Effect for Images */
-.product img:hover {
-    transform: scale(1.05);
-    transition: transform 0.3s ease;
-}
-
-/* Product Detail Page Button Style */
-.product-detail a {
-    padding: 10px 20px;
-    background-color: #007bff;
-    color: white;
-    border-radius: 5px;
-    margin-top: 20px;
-    display: inline-block;
-    text-align: center;
-}
-
-/* Responsive Design: Product List */
-@media (max-width: 768px) {
-    .products {
-        grid-template-columns: repeat(2, 1fr);
-    }
-}
-
-@media (max-width: 480px) {
-    .products {
-        grid-template-columns: 1fr;
-    }
-    .product-detail img {
-        width: 80%;
-    }
-}
-
-/* Product Detail: Center Image and Adjust Layout */
-.product-detail img {
+.product img {
     width: 100%;
-    max-width: 400px;
-    margin-bottom: 20px;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 5px;
 }
+.product h2 {
+    font-size: 1rem;
+    margin: 10px 0;
+}
+.product .price {
+    font-weight: bold;
+    color: green;
+}
+.product .discount {
+    color: red;
+    text-decoration: line-through;
+}
+.product .rating {
+    color: orange;
+}
+
+/* Pagination */
+.pagination {
+    text-align: center;
+    padding: 20px 0;
+}
+.pagination a {
+    padding: 6px 12px;
+    margin: 0 4px;
+    text-decoration: none;
+    background-color: #ddd;
+    color: #000;
+    border-radius: 3px;
+}
+.pagination a.active,
+.pagination a:hover {
+    background-color: #000;
+    color: #fff;
+}
+
