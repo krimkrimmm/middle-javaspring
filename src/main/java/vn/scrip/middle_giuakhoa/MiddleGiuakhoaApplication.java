@@ -1,11 +1,10 @@
 //Yêu cầu
 //1. Tạo model
 //Học viên tạo model với cấu trúc như sau:
-//
 //👉 Model Product
-//
 //id : int - Mã sản phẩm
 //name : String - Tên sản phẩm
+
 //description : String - Mô tả của sản phẩm
 //thumbnail : String - Ảnh đại diện của sản phẩm
 //price: int - Giá sản phẩm
@@ -15,6 +14,7 @@
 //Học viên sử dụng trang https://www.mockaroo.com để tạo dữ liệu cho sản phẩm (Nếu quên cách mockup xem lại Video : Mockup dữ liệu sử dụng Mockaroo)
 //Dữ liệu được tạo ra khoảng 30 -> 50 bản ghi
 //Dữ liệu xuất ra file theo một trong các định dạng sau: JSON, Excel, CSV
+
 //3. Yêu cầu
 //Yêu cầu giao diện
 //Giao diện sáng sủa, dễ nhìn
@@ -24,6 +24,7 @@
 //https://routine.vn/new-arrivals.html
 //https://cellphones.com.vn/
 //Yêu cầu chức năng
+
 //Đọc dữ liệu từ file đã được tạo ở bước trên -> sau đó lưu vào trong Collection để sử dụng
 //Ứng dụng tuân thủ mô hình three-layer (controller, service, repo)
 //Viết API trả về trả về dữ liệu sản phẩm và hiển thị nó ở bằng Thymeleaf bao gồm:
@@ -33,6 +34,7 @@
 //4. Nộp bài
 //Học viên push code lên trên github và nộp lại bài sau khi kết thúc bài kiểm tra
 //Viết file REAME.md chụp lại ảnh màn hình giao diện web và bổ sung thêm tin về flow, các chức năng khác của trang web (nếu có)
+
 //5. Chấm điểm
 //Hoàn thiện các yêu cầu ở trên
 //Bổ sung các tính năng nâng cao (tìm kiếm, sắp xếp, lọc dữ liệu, phân trang, …)
@@ -43,7 +45,6 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class MiddleGiuakhoaApplication
 {
-
 	public static void main(String[] args) {
 		SpringApplication.run(MiddleGiuakhoaApplication.class, args);
 	}

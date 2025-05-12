@@ -1,20 +1,41 @@
 <!DOCTYPE html>
-<html xmlns:th="http://www.thymeleaf.org" xmlns:text-align="http://www.w3.org/1999/xhtml">
+<html xmlns:th="http://www.thymeleaf.org">
 <head>
     <title>Danh sách sản phẩm</title>
     <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
-<h1 text-align: center>Danh sách sản phẩm</h1>
-<div class="products">
-    <div th:each="product : ${products}" class="product-card">
+<h2 style="margin-top: 20px;">Danh sách đồng hồ</h2>
+<form method="get" style="margin: 20px 0;">
+    <input type="text" name="keyword" placeholder="Tìm sản phẩm..." th:value="${keyword}" />
+    <input type="number" name="min" placeholder="Giá từ" th:value="${min}" />
+    <input type="number" name="max" placeholder="Giá đến" th:value="${max}" />
+    <select name="sort">
+        <option value="price_asc" th:selected="${sort == 'price_asc'}">Giá tăng</option>
+        <option value="price_desc" th:selected="${sort == 'price_desc'}">Giá giảm</option>
+    </select>
+    <button type="submit">Lọc</button>
+</form>
+<div class="product-grid">
+    <div class="product-card" th:each="product : ${products}">
         <a th:href="@{'/products/' + ${product.id}}">
-            <img th:src="${product.thumbnail}" alt="ảnh sản phẩm">
-            <h2 th:text="${product.name}"></h2>
-            <p>Giá: <span th:text="${product.price} + ' VND'"></span></p>
+            <img th:src="${product.thumbnail}" alt="Ảnh sản phẩm">
         </a>
+        <h2 th:text="${product.name}"></h2>
+        <div th:if="${product.priceDiscount != null}">
+            <span class="discounted-price" th:text="${#numbers.formatInteger(product.priceDiscount, 0, 'POINT')} + '₫'"></span>
+            <span class="original-price" th:text="${#numbers.formatInteger(product.price, 0, 'POINT')} + '₫'"></span>
+        </div>
+        <div th:if="${product.priceDiscount == null}">
+            <span class="discounted-price" th:text="${#numbers.formatInteger(product.price, 0, 'POINT')} + '₫'"></span>
+        </div>
+        <div class="rating" th:text="'⭐ ' + ${product.rating} + ' / 5.0'"></div>
     </div>
+</div>
+<div class="pagination">
+    <span th:each="i : ${#numbers.sequence(1, totalPages)}">
+        <a th:href="@{'/?page=' + ${i}}" th:text="${i}" th:classappend="${i == currentPage} ? 'active'"></a>
+    </span>
 </div>
 </body>
 </html>
-
